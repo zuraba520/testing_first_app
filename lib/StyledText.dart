@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class StyledText extends StatelessWidget {
-  const StyledText(this.text, {super.key});
+  const StyledText(this.text, {super.key});//ეს არის StyledText ვიჯეტის კონსტრუქტორი.
+  // მას სჭირდება პარამეტრის საჭირო ტექსტი (ტექსტი,
+  // რომელიც უნდა იყოს ნაჩვენები) და
+  // სურვილისამებრ სახელად პარამეტრის გასაღები.
 
  final String text;
 
